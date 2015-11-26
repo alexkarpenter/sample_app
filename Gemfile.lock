@@ -26,6 +26,9 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     arel (4.0.2)
+    bcrypt-ruby (3.1.2)
+    bootstrap-sass (2.3.2.0)
+      sass (~> 3.2)
     builder (3.1.4)
     capybara (2.1.0)
       mime-types (>= 1.16)
@@ -33,7 +36,7 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
-    childprocess (0.5.6)
+    childprocess (0.5.8)
       ffi (~> 1.0, >= 1.0.11)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -41,7 +44,7 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.9.1.1)
+    coffee-script-source (1.10.0)
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.6.0)
@@ -61,7 +64,7 @@ GEM
     mini_portile (0.6.2)
     minitest (4.7.5)
     multi_json (1.11.2)
-    nokogiri (1.6.6.2)
+    nokogiri (1.6.6.4)
       mini_portile (~> 0.6.0)
     pg (0.15.1)
     polyglot (0.3.5)
@@ -144,6 +147,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt-ruby (= 3.1.2)
+  bootstrap-sass (= 2.3.2.0)
   capybara (= 2.1.0)
   coffee-rails (= 4.0.1)
   jbuilder (= 1.0.2)
